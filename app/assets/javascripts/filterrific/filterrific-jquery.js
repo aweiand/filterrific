@@ -107,6 +107,10 @@ jQuery(document).on('turbolinks:load', function() {
   Filterrific.init();
 });
 
-jQuery(document).on('ready page:load', function() {
+// jQuery(document).on('ready page:load', function() {
+//   Filterrific.init();
+// });
+
+jQuery(document).ready(function() {
   Filterrific.init();
 });
